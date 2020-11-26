@@ -30,7 +30,7 @@ The final output of the physical design process is typically GDSII.
 
    Layout of Integrated Circuit :
    
-   ![FIG:1](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_IC.PNG)
+   ![FIG:2](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_IC.PNG)
    
   
  **OpenLANE** is a an Architecture which consist of different tool which help an IC DESIGNER to covert RTL code to GDSII/LEF. In our lab we have use the OpenLane in an interactive way as shown below .
@@ -66,7 +66,7 @@ The final output of the physical design process is typically GDSII.
         
         a.Magic - Streams out the final GDSII layout file from the routed def
 
-**Below picture show the flow in GUI mode**
+**Below picture show the flow of OpenLane :**
 
-
+   ![FIG:3](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/openlane.flow.1.png)
 
