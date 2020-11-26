@@ -23,7 +23,7 @@ The final output of the physical design process is typically GDSII.
    ##### 5.Final steps for RTL2GDS 
 
 
-## DAY_1
+## DAY_1 - Its was intorduction day which explain about EDA , Openlane and skylane130nm library.
    Architecture of Integrated Circuit with different IP blocks:
    
    ![FIG:1](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/IC.PNG)
@@ -69,4 +69,35 @@ The final output of the physical design process is typically GDSII.
 **Below picture show the flow of OpenLane :**
 
    ![FIG:3](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/openlane.flow.1.png)
+   
+   
+   
+   
+   
+   
+   
+   
+  In this LAB1 we had to synthesis a design picorv32a by using OpenLANE -interactive mode.
+  If your using the lab session from https://www.vlsisystemdesign.com/ then you dont need to configure Docker but if your using in your PC you need to configure docker.
+  So i didnt use my PC for this practical session , so i just need to open flow.tcl file in intercative mode . Its script which will invoke the Openlane. 
+  
+            ./flow.tcl -interactive
+  
+  Include the package by using the below command
+
+             package require openlane 0.9
+             
+  After that you need to prepare your design files "picorv32a" with below command
+
+             prep -design ./designs/picorv32a
+             
+  When the design is prepared run syntheis by using below command
+
+              run_synthesis
+          
+  Finally we need check the total area occupied by picorv32a in form of flipflops, adders, AND, OR gates etc. :
+        ![FIG:3](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/image.png)
+    
+   
+   
 
