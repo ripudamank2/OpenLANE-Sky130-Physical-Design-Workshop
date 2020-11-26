@@ -27,3 +27,8 @@ The final output of the physical design process is typically GDSII.
    Architecture of Integrated Circuit with different IP blocks:
    
    ![FIG:1](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/IC.PNG)
+
+   Layout of Integrated Circuit :
+   
+   ![FIG:1](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_IC.PNG)
+   
