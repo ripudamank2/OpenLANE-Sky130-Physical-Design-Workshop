@@ -9,7 +9,15 @@ The final output of the physical design process is typically GDSII.
 
 ### Table of Content
    ##### 1.Inception of open-source EDA, OpenLANE and Sky130 PDK
+           a.  Chip Floor planning considerations
+           b.  Library Binding and Placement
+           c.  Cell design and characterization flows
+           d.  General timing characterization parameter
    ##### 2.Understand importance of good floorplan vs bad floorplan and introduction to library cells
+           a.  Chip Floor planning considerations
+           b.  SKY130_D2_SK2 - Library Binding and Placement
+           c.  Cell design and characterization flows
+           d.  General timing characterization parameters
    ##### 3.Design and characterize one library cell using Magic Layout tool and ngspice
    ##### 4.Pre-layout timing analysis and importance of good clock tree
    ##### 5.Final steps for RTL2GDS 
