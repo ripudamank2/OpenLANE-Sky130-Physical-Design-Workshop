@@ -25,4 +25,4 @@ The final output of the physical design process is typically GDSII.
 
 ## DAY_1
    RISC-V 
-    ![FIG:1](./IC.png)
+    ![FIG:1](IC.png)
