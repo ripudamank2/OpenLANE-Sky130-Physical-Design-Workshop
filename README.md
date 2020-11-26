@@ -21,3 +21,7 @@ The final output of the physical design process is typically GDSII.
    ##### 3.Design and characterize one library cell using Magic Layout tool and ngspice
    ##### 4.Pre-layout timing analysis and importance of good clock tree
    ##### 5.Final steps for RTL2GDS 
+
+
+## DAY_1
+   RISC-V 
