@@ -139,7 +139,8 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
    Then to check the floor of your IP block after running this command in openlane (run_floorplane) is shown in beelow picture.
-   This include tool Magic with 130nm PDK and you .def file .
+   This include Magic tool with 130nm PDK and you .def file .
+   
    ![FIG:6](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/floorplan.JPG)
    
    Some basic command to use in magic 
