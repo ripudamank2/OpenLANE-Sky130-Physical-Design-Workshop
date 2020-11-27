@@ -27,7 +27,8 @@ The final output of the physical design process is typically GDSII.
            b. Timing analysis with ideal clocks using openSTA
            c. Clock tree synthesis TritonCTS and signal integrity
            d. Timing analysis with real clocks using openSTA
-   ##### 5.Final steps for RTL2GDS 
+   ##### 5.Final steps for RTL2GDS
+   ##### Refrences
 
 
 ## DAY_1 - Its was intorduction day which explain about EDA , Openlane and skylane130nm library.
@@ -166,13 +167,20 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
  ## DAY_3 
-   
-   
+ In this day we get to learn about the about the layout tool (magic) and in which we have implementented the layout of cmos-inverter as  shown in below figures. 
+            
+            's' 's' two times will select the full path in magic tool 
+     
    ![FIG:10](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/nmos.JPG)
    ![FIG:11](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/pmos.JPG)
    ![FIG:12](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/out_connection.JPG)
    ![FIG:13](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/source_vdd.JPG)
    ![FIG:14](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/out_connection.JPG)
+   
+   
+
+   **In the below picture you can see the how we can analyse the layout through spcie tool** 
+
    ![FIG:15](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_2_spice.JPG)
    ![FIG:16](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/simfile.png)
    ![FIG:17](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/trans.JPG)
