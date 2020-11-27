@@ -145,7 +145,7 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
        zoom  -left mosue click and then right mosue click then z 
        Key macro z implements the command zoom 0.5 (zoom out by a factor of 2).
        Key macro Z implements the command zoom 2 (zoom in by a factor of 2).
-       **Reference** http://opencircuitdesign.com/magic/userguide.html. 
+   **Reference**    http://opencircuitdesign.com/magic/userguide.html. 
    
        i/o pins equal distance  ---to see the layer of pin …just move the mouse at that pin and click  s 
         in tkon will show layer information by typing "what"  
