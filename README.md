@@ -19,6 +19,9 @@ The final output of the physical design process is typically GDSII.
            c.  Cell design and characterization flows
            d.  General timing characterization parameters
    ##### 3.Design and characterize one library cell using Magic Layout tool and ngspice
+            a. Labs for CMOS inverter ngspice simulations
+            b. Inception of Layout – CMOS fabrication process
+            c. Sky130 Tech File Labs
    ##### 4.Pre-layout timing analysis and importance of good clock tree
    ##### 5.Final steps for RTL2GDS 
 
