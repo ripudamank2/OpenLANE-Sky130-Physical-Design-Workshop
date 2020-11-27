@@ -23,6 +23,10 @@ The final output of the physical design process is typically GDSII.
             b. Inception of Layout – CMOS fabrication process
             c. Sky130 Tech File Labs
    ##### 4.Pre-layout timing analysis and importance of good clock tree
+           a. Timing modelling using delay tables
+           b. Timing analysis with ideal clocks using openSTA
+           c. Clock tree synthesis TritonCTS and signal integrity
+           d. Timing analysis with real clocks using openSTA
    ##### 5.Final steps for RTL2GDS 
 
 
@@ -160,4 +164,24 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    ![FIG:9](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/after_placement.JPG)
    
+   
+ ## DAY_3 
+   
+   
+   ![FIG:10](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/nmos.JPG)
+   ![FIG:11](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/pmos.JPG)
+   ![FIG:12](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/out_connection.JPG)
+   ![FIG:13](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/source_vdd.JPG)
+   ![FIG:14](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/out_connection.JPG)
+   ![FIG:15](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_2_spice.JPG)
+   ![FIG:16](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/simfile.png)
+   ![FIG:17](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/trans.JPG)
+   
+   
+   
+     
+     
+     
+   
+            
    
