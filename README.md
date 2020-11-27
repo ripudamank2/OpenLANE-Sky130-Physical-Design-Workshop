@@ -185,7 +185,7 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
 
    ![FIG:15](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_2_spice.JPG)
    ![FIG:16](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/simfile.png)
-   ![FIG:17](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/trans.JPG)
+   ![FIG:17](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/trans.JPG) 
    
    
    
