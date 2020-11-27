@@ -169,6 +169,7 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
  ## DAY_3 
  In this day we get to learn about the about the layout tool (magic) and in which we have implementented the layout of cmos-inverter as  shown in below figures. 
             
+             's' will select only one via or layer 
             's' 's' two times will select the full path in magic tool 
      
    ![FIG:10](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/nmos.JPG)
@@ -179,7 +180,7 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
 
-   **In the below picture you can see the how we can analyse the layout through spcie tool** 
+   **In the below picture you can see the how we can analyse the layout through spice tool** 
 
    ![FIG:15](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/layout_2_spice.JPG)
    ![FIG:16](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/simfile.png)
