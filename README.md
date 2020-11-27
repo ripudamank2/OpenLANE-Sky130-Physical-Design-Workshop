@@ -101,6 +101,63 @@ The final output of the physical design process is typically GDSII.
   Finally we need check the total area occupied by picorv32a in form of flipflops, adders, AND, OR gates etc. :
         ![FIG:3](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/image.png)
     
-   
-   
+    
+    
+## DAY_2 - It give us inforamtion of floorplan and standard cell   
 
+  **Floorplanning** is the art of any physical design. A well and perfect floorplan leads to higher performance and optimum area in an ASIC.
+  Floorplanning can be challenging.It deals with the placement of I/O pads and macros as well as power and ground structure.
+  Before we are going for the floor planning to make sure that inputs are used for floorplan is prepared properly.
+
+    Inputs for floorplan:
+       Netlist (.v)
+       Technology file (techlef)
+       Timing Library files (.lib)
+       Physical library (.lef)
+       design constraints 
+       
+  
+  There are basically three ways to design VLSI circuits; either gate array, standard cell or full custom layouts can be used
+  We will be working with standard cell which is a group of transistor and interconnect structures that provides a boolean logic function . the deve;opment tim to design a        standard cell is 10 - 14 weeks 
+   
+In this workshop as you alreday know from above steps we are uisng Openlane for development purpose . Below are some information on openlane .
+
+   The below image show about the interactive mode of openLANE.
+   ![FIG:4](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/openlane.JPG)
+   
+   If you need to update some parameter in **config.tcl** file in your project directory after you had done prep -desifgn.
+   There are basically two option 
+   1. , it reflect in the tool only you do prep **-design again** with the **-overwrite** flag.  
+   2.  **set env(parameter_name) parameter_value**  from within openlane flow.
+   
+   ![FIG:5](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/openl.JPG)
+   
+   
+   Then to check the floor of your IP block after running this command in openlane (run_floorplane) is shown in beelow picture.
+   This include tool Magic with 130nm PDK and you .def file .
+   ![FIG:6](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/floorplan.JPG)
+   
+   Some basic command to use in magic 
+           
+         s – select
+         v — fit layout
+       
+       zoom  -left mosue click and then right mosue click then z 
+       Key macro z implements the command zoom 0.5 (zoom out by a factor of 2).
+       Key macro Z implements the command zoom 2 (zoom in by a factor of 2).
+       **Reference** http://opencircuitdesign.com/magic/userguide.html. 
+   
+       i/o pins equal distance  ---to see the layer of pin …just move the mouse at that pin and click  s 
+        in tkon will show layer information by typing "what"  
+
+   
+   ![FIG:7](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/tkon_placem.JPG)
+   
+   
+   After running the placement command in openLane(run_placement). Then we need to see the placement of standard cells which can be shown in the below pictures 
+   
+   ![FIG:8](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/place_command.JPG)
+   
+   ![FIG:9](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/after_placement.JPG)
+   
+   
