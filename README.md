@@ -242,9 +242,50 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
    
-   ![FIG:28]()
-   ![FIG:29]()
+   #### DAY_5
+   In this last day we undertsand how to generate power analysis report using gen_pdn and full routing technique for our custom asic.
+   In your OpenLane interactive view type this command
+     
+              echo $::env(CURRENT_DEF)   ---> see current def 
+   then run this command
    
+                 gen_pdn
+   
+   THIS COMMAND WILL CREATE POWER AND GND RAILS FOR CELLS.
+   After completing the above step last step is to rounting 
+   
+                 get_rounting 
+      
+   it will take some time. But remember you need to get the result violation and DRC free to go for fabrication .
+   Last Step is to generated the SPEF file with separate SPEF tool which is not included in OpenLane.
+   This tools take two files **merged.lef and design.def**  to extract the parasitics. **(SPEF_EXTRACTOR)**
+   
+          python3 main.py <.LEF> <.DEF>
+    
+    
+          
+                    
+    
+   Below Figures show the final layout with the standard inverter cell which was inserted in the picorv32a . 
+    
+   ![FIG:28](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/final_layout.JPG)
+   ![FIG:29](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/std_cell_lay.JPG)
+   
+   
+  
+  
+#### Refrences
+      https://github.com/nickson-jose/vsdstdcelldesign
+      https://skywater-pdk--136.org.readthedocs.build/en/136/
+      https://github.com/google/skywater-pdk
+      http://opencircuitdesign.com/open_pdks/archive/drc_tests.tgz
+      
+      
+      
+#### Acknowledgements:
+* Kunal Ghosh, Co-founder (VSD Corp. Pvt. Ltd)
+* Nickson P Jose, Teaching Assistant (VSD Corp. Pvt. Ltd)      
+
    
    
    
