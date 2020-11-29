@@ -193,7 +193,31 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
    
-     
+   
+   ## DAY_4 
+  
+  
+  This day was bit interested in which we had inserted the inverted which we had designed earlier adn then we synthesis the full design using that newly design inverter
+  and later we done the timing analysis to find the slack and uses ways to optimize the slack because we were getting negative slack . The neagtive slacck is bad for design.
+  So we done some analysis through timing report and optimize the buffer paths to reduce the delay.
+  
+   **Skew** is the time delta between the actual and expected arrival time of a clock signal.
+   ![FIG:18](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/skew.JPG)
+   
+   **Hold Time**: the amount of time the data at the input must be stable after the active edge of clock.
+   ![FIG:19](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/hold_time.JPG)
+    
+   **Setup Time**: the amount of time the data at the input must be stable before the active edge of clock
+   ![FIG:20](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/setup_time.JPG)
+   
+   
+   ![FIG:21]()
+   ![FIG:22]()
+   ![FIG:23]()
+   
+   
+   
+  
      
      
    
