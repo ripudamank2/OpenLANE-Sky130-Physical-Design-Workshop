@@ -211,9 +211,9 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    ![FIG:20](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/setup_time.JPG)
    
    **Plug the custom LEF to openlane flow**
-   If a new custom cell needs to be plugged into openlane flow, include the lefs (the one extracted in Step-5) as below:
+   If a new custom cell needs to be plugged into openlane flow, include the lefs:
 
-   In the design's config.tcl file add the below line to point to the lef location which is required during spice extraction.
+   In the config.tcl file (design_your) add the below line to point to the lef location which is required during spice extraction.
 
              set ::env(EXTRA_LEFS) [glob $::env(OPENLANE_ROOT)/designs/$::env(DESIGN_NAME)/src/*.lef]
    the below command to include the additional lef into the flow:
