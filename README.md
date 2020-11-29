@@ -227,21 +227,16 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    ![FIG:22](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/cell_expand.JPG)
    
    
+  **One way to reduce the slack is to optimize the buffers in the path which has higher fanout.
+   ![FIG:23](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/slack_occur.JPG)
+   ![FIG:24](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/modify_cell_delay.png)
+   ![FIG:25](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/new_slack.JPG)
    
    
    
    
    
    
-   
-   
-   
-   
-   
-   
-   ![FIG:23]()
-   ![FIG:24]()
-   ![FIG:25]()
    ![FIG:26]()
    ![FIG:27]()
    ![FIG:28]()
