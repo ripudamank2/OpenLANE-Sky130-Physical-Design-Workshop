@@ -234,11 +234,14 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    
    
    
+   **Way to remove and insert the clk_buff** 
+   
+   
+   ![FIG:26](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/clk_buff_remove.jpg)
+   ![FIG:27](https://github.com/ripudamank2/OpenLANE-Sky130-Physical-Design-Workshop/blob/main/how_add_clk_buff.JPG)
    
    
    
-   ![FIG:26]()
-   ![FIG:27]()
    ![FIG:28]()
    ![FIG:29]()
    
