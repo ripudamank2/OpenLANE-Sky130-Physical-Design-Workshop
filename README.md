@@ -28,7 +28,11 @@ The final output of the physical design process is typically GDSII.
            c. Clock tree synthesis TritonCTS and signal integrity
            d. Timing analysis with real clocks using openSTA
    ##### 5.Final steps for RTL2GDS
-   ##### Refrences
+           a. Routing and design rule check (DRC)
+           b. Power Distribution Network and routing
+           c. TritonRoute Features
+   ##### 6. Refrences
+   ##### Acknowledgements
 
 
 ## DAY_1 - Its was intorduction day which explain about EDA , Openlane and skylane130nm library.
