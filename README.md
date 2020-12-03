@@ -254,7 +254,7 @@ In this workshop as you alreday know from above steps we are uisng Openlane for 
    THIS COMMAND WILL CREATE POWER AND GND RAILS FOR CELLS.
    After completing the above step last step is to rounting 
    
-                 get_rounting 
+                 run_rounting 
       
    it will take some time. But remember you need to get the result violation and DRC free to go for fabrication .
    Last Step is to generated the SPEF file with separate SPEF tool which is not included in OpenLane.
